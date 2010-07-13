@@ -1,0 +1,13 @@
+*.iml
+*.ipr
+*.iws
+*.log
+hippo-media-plugin-cms/*.iml
+hippo-media-plugin-cms/*.ipr
+hippo-media-plugin-cms/*.iws
+hippo-media-plugin-cms/*.log
+hippo-media-plugin-content/*.iml
+hippo-media-plugin-content/*.ipr
+hippo-media-plugin-content/*.iws
+hippo-media-plugin-content/*.log
+

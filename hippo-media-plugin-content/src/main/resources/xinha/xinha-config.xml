@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="root" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>frontend:plugin</sv:value>
+    </sv:property>
+    <sv:property sv:name="AutoResize" sv:type="String">
+        <sv:value>minHeight=250</sv:value>
+    </sv:property>
+    <sv:property sv:name="AutoSave" sv:type="String">
+        <sv:value>timeoutLength=1500</sv:value>
+    </sv:property>
+    <sv:property sv:name="TableOperations" sv:type="String">
+        <sv:value>showButtons=true</sv:value>
+    </sv:property>
+    <sv:property sv:name="Xinha.config.css" sv:type="String">
+        <sv:value>../../skin/xinhaInternal.css</sv:value>
+    </sv:property>
+    <sv:property sv:name="Xinha.config.toolbar" sv:type="String">
+        <sv:value>bold</sv:value>
+        <sv:value>italic</sv:value>
+        <sv:value>insertorderedlist</sv:value>
+        <sv:value>insertunorderedlist</sv:value>
+        <sv:value>formatblock</sv:value>
+        <sv:value>createlink</sv:value>
+        <sv:value>inserttable</sv:value>
+        <sv:value>htmlmode</sv:value>
+        <sv:value>fullscreen</sv:value>
+        <sv:value>insertmedia</sv:value>
+    </sv:property>
+    <sv:property sv:name="Xinha.plugins" sv:type="String">
+        <sv:value>AutoResize</sv:value>
+        <sv:value>AutoSave</sv:value>
+        <sv:value>CreateLink</sv:value>
+        <sv:value>FullscreenCompatible</sv:value>
+        <sv:value>ContextMenu</sv:value>
+        <sv:value>TableOperations</sv:value>
+        <sv:value>InsertMedia</sv:value>
+    </sv:property>
+    <sv:property sv:name="Xinha.format" sv:type="String">
+        <sv:value>h2</sv:value>
+        <sv:value>h3</sv:value>
+        <sv:value>h4</sv:value>
+        <sv:value>p</sv:value>
+    </sv:property>
+    <sv:property sv:name="Xinha.skin" sv:type="String">
+        <sv:value>hippo-lite</sv:value>
+    </sv:property>
+    <sv:property sv:name="engine" sv:type="String">
+        <sv:value>${engine}</sv:value>
+    </sv:property>
+    <sv:property sv:name="height" sv:type="String">
+        <sv:value>${height}</sv:value>
+    </sv:property>
+    <sv:property sv:name="mode" sv:type="String">
+        <sv:value>${mode}</sv:value>
+    </sv:property>
+    <sv:property sv:name="plugin.class" sv:type="String">
+        <sv:value>org.hippoecm.frontend.plugins.xinha.XinhaNodePlugin</sv:value>
+    </sv:property>
+    <sv:property sv:name="wicket.id" sv:type="String">
+        <sv:value>${wicket.id}</sv:value>
+    </sv:property>
+    <sv:property sv:name="wicket.model" sv:type="String">
+        <sv:value>${wicket.model}</sv:value>
+    </sv:property>
+    <sv:property sv:name="width" sv:type="String">
+        <sv:value>${width}</sv:value>
+    </sv:property>
+    <sv:node sv:name="Xinha.plugins.CreateLink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>frontend:pluginconfig</sv:value>
+        </sv:property>
+        <sv:property sv:name="cluster.name" sv:type="String">
+            <sv:value>cms-pickers/documents</sv:value>
+        </sv:property>
+        <sv:property sv:name="last.visited.nodetypes.allowed"
+            sv:type="String">
+            <sv:value>hippostd:folder</sv:value>
+            <sv:value>hippogallery:stdImageGallery</sv:value>
+            <sv:value>hippogallery:stdAssetGallery</sv:value>
+        </sv:property>
+    </sv:node>
+    <sv:node sv:name="yui.config">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>frontend:pluginconfig</sv:value>
+        </sv:property>
+        <sv:property sv:name="groups" sv:type="String">
+            <sv:value>drop-on-xinha</sv:value>
+        </sv:property>
+    </sv:node>
+</sv:node>
